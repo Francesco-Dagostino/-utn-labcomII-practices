@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia</title>
+
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+        .Imagenes_ {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin: 20px;
+        }
+        
+        .Imagenes_ img,
+        .Imagenes_ video {
+            max-width: 300px;
+            max-height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <h1>Instagram!</h1>
+    </header>
+    <div class="container">
+        <!-- Navegación / contenedor izquierdo -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Contenedor principal -->
+        <main>
+            <h4>Cuidado con el volumen!!</h4>
+            <div class="Imagenes_">
+                <img src="img_practica3/a.jpg" alt="Instagram">
+
+                <video controls>
+                    <source src="img_practica3/We Are In The Making _ Instagram (1).mp4" type="video/mp4">
+                </video>
+            </div>
+
+            <audio controls>
+                <source src="img_practica3/a.mp3" type="audio/mpeg">
+                Tu navegador no admite el elemento de audio.
+            </audio>
+        </main>
+        <!-- Contenedor secundario / derecho -->
+        <div class="right">
+            <h2>.</h2>
+        </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+        <p>&copy; mi Pag de instagram. todos los derechos</p>
+    </footer>
+</body>
+
+</html>
