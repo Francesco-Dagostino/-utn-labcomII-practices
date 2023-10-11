@@ -1,0 +1,160 @@
+@import url('');
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*  HEADER  */
+
+header {
+    background-color: rgb(240, 240, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .logo {
+    height: 40px;
+    padding: 10px;
+}
+
+header nav {
+    flex-grow: 1;
+}
+
+header nav ul {
+    list-style-type: ;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    font-family: ;
+    color: #333;
+    padding: 20px;
+    text-transform: ;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #6e6e6e;
+}
+
+header nav ul li a.active {
+    border-bottom: 2px solid #333333;
+}
+
+header .profile a {
+    color: #333333;
+    padding: 10px 30px;
+    display: block;
+}
+
+header .profile svg {
+    width: 30px;
+}
+
+
+/*  MAIN  */
+
+main section {
+    display: flex;
+    min-height: 300px;
+}
+
+section.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+section.fullwidth {
+    justify-content: center;
+    align-items: center;
+}
+
+section.fullwidth h2 {
+    text-align: center;
+}
+
+section.main-image>div {
+    flex: 1;
+}
+
+.center-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-background {
+    background: url('https://www.utn.edu.ar/images/2018/09/27/3foferta3.jpg');
+}
+
+.img-background h1 {
+    color: #ffffff;
+}
+
+.img-content p {
+    font-size: 18px;
+    padding: 45px;
+}
+
+.careers-container {
+    width: 80%;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.careers h2 {
+    margin-bottom: 30px;
+}
+
+.careers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px - 10px;
+}
+
+.careers .career {
+    flex: 0 0 calc(33.33% - 20px);
+    padding: 20px;
+    margin: 10px;
+    background-color: #333;
+    text-align: center;
+}
+
+.careers .career:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+#Logopersonas {
+    width: 800px;
+    height: 400px;
+}
+
+
+/*  FOOTER  */
+
+footer {
+    display: flex;
+    grid-template-columns: 50px;
+    background-color: rgb(240, 240, 240);
+    justify-content: space-between;
+}
+
+footer>div {
+    width: 23%;
+    padding: 20px;
+}

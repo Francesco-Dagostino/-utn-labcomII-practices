@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario calculo</title>
+    <script src="formularioCalculo.js" defer></script>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+        }
+        
+        input {
+            display: block;
+            margin: auto;
+            margin-bottom: 15px;
+        }
+        
+        select {
+            margin: auto;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+
+    <h1>Calculadora divisas. !</h1>
+
+    <form id="agregarMoneda">
+        <label for="nombreMoneda">Nombre de la moneda:</label>
+        <input type="text" id="nombreMoneda" required>
+
+        <label for="costoConversion">Costo de conversión en pesos:</label>
+        <input type="number" id="costoConversion" required>
+
+        <button type="submit" onclick=agregarMonedaFormulario()>Agregar moneda</button>
+    </form>
+
+    <hr>
+
+    <input type="text" id="Operacion 1" placeholder="Ingrese cantidad">
+    <select name="Moneda" id="moneda">
+        <option value="euro">Euro</option>
+        <option value="dolar">Dolar</option>
+    </select>
+    <input type="submit" value="Calcular" id="calcular" onclick=validar()>
+
+    <p id="resultado"></p>
+</body>
+
+</html>
